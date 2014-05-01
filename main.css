@@ -1,0 +1,59 @@
+/*
+.controller {
+	margin: 60px auto;
+	display: block;
+	height: 56px;
+	width: 600px;
+
+}*/
+
+.button {
+	margin-top: 60px;
+	width: 150px;
+	height: 75px;
+	background-color: rgb(149, 149, 165);
+	border-radius: 8px;
+	display: inline-block;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 75px;
+	font-weight: bolder;
+	color: rgb(232, 30, 30);
+	text-shadow: 0px 1px 1px rgb(223, 23, 23);
+	font-size: 40px;
+	letter-spacing: -.1em;
+	box-shadow: inset 0px -16px 0px rgb(130, 130, 147),
+					  2px 2px 1px rgb(111, 111, 126);
+    transition: all .2s ease;
+    padding:.4em;
+    vertical-align: bottom;
+   
+}
+
+.action:hover { 
+	height:70px;
+	margin-top: 65px;
+	box-shadow: inset 0px -8px 0px rgb(130, 130, 147),
+					  2px 2px 1px rgb(111, 111, 126);
+}
+
+.action:active {
+	height: 65px;
+	margin-top: 70px;
+	box-shadow: inset 0px -4px 0px rgb(130, 130, 147),
+					  2px 2px 1px rgb(111, 111, 126);
+}
+
+.play {
+	
+}
+
+.pause {
+	
+}
+
+.stop {
+	/*font-size: 30px;
+	line-height: 80px;
+	vertical-align: top;*/
+}
